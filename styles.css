@@ -1,0 +1,152 @@
+:root {
+    --background-color:#373F51;
+    --font:#A9BCD0;
+    --header-background-color:#1B1B1E;
+    --font-size18:1.125rem;
+    --font-size88:5.5rem;
+    --font-size48:3rem;
+    --font-size24:1.5rem;
+    --line-height:1.56rem;
+    --accent:#58A4B0;
+    
+    
+}
+
+html{
+    box-sizing: border-box;
+   
+}
+* {
+    /* border: 3px solid red; */
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body{
+   
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: var(--background-color);
+    font-size: var(--font-size18);
+    line-height: 1.586;
+    color: var(--font);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--font);
+   
+    
+}
+
+
+.header  {
+    box-shadow: .5rem .5rem .5rem var(--accent);
+    padding: 1rem;
+    background-color: var(--header-background-color);
+    
+    /* display: grid; */
+     
+}
+
+
+.navbar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar a {
+    font-size: 2rem;
+}
+
+.myphoto {
+    border-radius: 50%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    font-size: xx-large;
+
+}
+
+.hero-title {
+    margin-top: 5rem;
+}
+    
+
+ #aboutMe {
+    color: var(--font);
+    padding: 1rem ;
+    margin: 1rem ;
+
+}
+
+
+span {
+    color: var(--accent);
+}
+
+#projects {
+    
+    background-color: var(--accent);
+    color: var(--background-color);
+}
+
+
+
+
+.project-grid {
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5rem;
+ 
+
+
+
+}
+
+.portfolio-screenshot  {
+    
+    box-shadow: 1rem 1rem 1rem var(--background-color);
+    
+    
+    
+}
+
+
+.projects-title {
+    
+    padding: 1rem;
+    margin: 1rem ;
+}
+
+.project-item  {
+    padding: 1rem;
+    margin: 1rem ;
+}
+.project-title, .project-description   {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.project-link{
+    text-shadow: 1rem 1rem 1rem var(--background-color);
+    margin: 1rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 1rem ;
+
+}
+
+
+

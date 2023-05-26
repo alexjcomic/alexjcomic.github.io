@@ -8,46 +8,108 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-        <a class="logo" href="#"><h1>My Portfolio</h1></a>
-      <nav class="nav_bar">
-        <ul class="nav_links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#aboutMe">About Me</a></li>
-        </ul>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#footer">Contact Me</a>
       </nav>
     </header>
-    
-    <section id="projects">
-      <h2>Projects</h2>
-      <article><h3>Project</h3></article>
-      <article><h3>Project</h3></article>
-      <article><h3>Project</h3></article>
-    </section>
+
+    <figure class="hero">
+      <img
+        class="myphoto"
+        src="/images/IMG_0019.jpg"
+        alt="Photo of Alex. Your software engineer"
+        width="400"
+      />
+      <a class="logo" href="#"
+        ><h1 class="hero-title">
+          Hi I'm Alex.<br /><span>Your Developer.</span> <br />
+          How can I help you?
+        </h1></a
+      >
+    </figure>
 
     <section id="aboutMe">
-      <h2>About Me</h2>
-      <p>
-        Hi Im alex and I am a motivated and passionate junior software engineer
-        with a strong foundation in HTML, CSS, and JavaScript. I recently
-        completed a coding bootcamp where I gained hands-on experience in web
-        development and built several projects using these technologies. I pride
-        my self on my keen eye for detail and a dedication to writing clean and
-        efficient code, I am eager to apply these newly obtained skills in a
-        professional environment. I have a solid understanding of front-end
-        development principles and I'm constantly expanding my knowledge through
-        self-study and online resources. Although my experience may seem to be
-        limited, I possess excellent problem-solving skills and a willingness to
-        learn and grow as a developer. I'm a team player who communicates
-        effectively and is always eager to collaborate with others to achieve
-        project goals. I am excited about the opportunity to contribute to
-        meaningful projects and I'm actively seeking an entry-level position or
-        internship where I can continue to enhance my skills and make a positive
-        impact on the world of software development.
-      </p>
+      <h2 class="about_me_title">About Me</h2>
+
+      <div class="about-content">
+        <p>
+          Hi Im Alex, I'm a motivated and passionate Junior software engineer
+          with a strong foundation in HTML, CSS, and JavaScript. I recently
+          completed a coding bootcamp where I gained hands-on experience in web
+          development and built several projects using these technologies. I
+          pride my self on my keen eye for detail and a dedication to writing
+          clean and efficient code, I am eager to apply these newly obtained
+          skills in a professional environment. I have a solid understanding of
+          front-end development principles and I'm constantly expanding my
+          knowledge through self-study and online resources.
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2 class="projects-title">Projects</h2>
+      <div class="project-items">
+        <div class="project-grid">
+          <article class="project-item project1">
+            <h3 class="project-title">Portfolio Page</h3>
+            <a
+              href="https://github.com/alexjcomic/alexjcomic.github.io"
+              class="project-link"
+              target="_blank"
+              ><img
+                class="portfolio-screenshot"
+                src="/images/newscreenshot.png"
+                alt="screenshot of portfolio project"
+                width="200"
+            /></a>
+            <p class="project-description">
+              In this project I used HTML and CSS to create user-friendly user
+              interface. I utilized a code structure that is organized with
+              semantic tags to enhance accessibility and search engine
+              optimization.
+            </p>
+          </article>
+  
+          <article class="project-item project2">
+            <h3 class="project-title">E-commerce site</h3>
+            <a href="#" class="project-link">Coming Soon</a>
+            <p class="project-description">
+              The website features an intuitive and user-friendly interface that
+              allows visitors to browse through various product categories, search
+              for specific items, and view detailed product descriptions,
+              including images, prices, and customer reviews.
+            </p>
+            
+          </article>
+          <article class="project-item project3">
+            <h3 class="project-title">Youtube clone</h3>
+            <a href="#" class="project-link">Coming Soon</a>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+              similique adipisci sed deleniti iusto dolorum et libero voluptatem
+              dignissimos facilis, tempora autem, dolor ducimus omnis.
+            </p>
+            
+          </article>
+
+        </div>
+        
+      </div>
     </section>
 
-    <footer>footer</footer>
+    <footer id="footer">
+      <article class="contact-links">
+        <h3>Contact Me</h3>
+        <a href="">GitHub</a>
+        <a href="">LinkedIn</a>
+        <a href="">Twitter</a>
+
+      </article>
+
+    
+    </footer>
   </body>
 </html>
