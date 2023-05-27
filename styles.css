@@ -2,12 +2,14 @@
     --background-color:#373F51;
     --font:#A9BCD0;
     --header-background-color:#1B1B1E;
+    --accent:#58A4B0;
+    --skills-bg:#d8dbe2;
     --font-size18:1.125rem;
     --font-size88:5.5rem;
     --font-size48:3rem;
     --font-size24:1.5rem;
     --line-height:1.56rem;
-    --accent:#58A4B0;
+    
     
     
 }
@@ -24,31 +26,28 @@ html{
 }
 
 body{
-   
     margin: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-color: var(--background-color);
     font-size: var(--font-size18);
     line-height: 1.586;
     color: var(--font);
-
 }
 
 a {
     text-decoration: none;
     color: var(--font);
-   
-    
 }
 
+span {
+    color: var(--accent);
+}
 
+/* Header-Nav */
 .header  {
     box-shadow: .5rem .5rem .5rem var(--accent);
     padding: 1rem;
     background-color: var(--header-background-color);
-    
-    /* display: grid; */
-     
 }
 
 
@@ -62,7 +61,7 @@ a {
 .navbar a {
     font-size: 2rem;
 }
-
+/* Hero */
 .myphoto {
     border-radius: 50%;
 }
@@ -84,16 +83,13 @@ a {
     color: var(--font);
     padding: 1rem ;
     margin: 1rem ;
-
 }
 
 
-span {
-    color: var(--accent);
-}
+
+/* Projects */
 
 #projects {
-    
     background-color: var(--accent);
     color: var(--background-color);
 }
@@ -103,25 +99,18 @@ span {
 
 .project-grid {
     display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 5rem;
- 
-
-
-
+    grid-template-columns: auto auto auto auto;
+    gap: 5rem;
+   
 }
 
 .portfolio-screenshot  {
     
     box-shadow: 1rem 1rem 1rem var(--background-color);
-    
-    
-    
 }
 
 
 .projects-title {
-    
     padding: 1rem;
     margin: 1rem ;
 }
@@ -139,6 +128,35 @@ span {
     text-shadow: 1rem 1rem 1rem var(--background-color);
     margin: 1rem;
 }
+
+/* Skills */
+
+#skills {
+    background-color: var(--skills-bg);
+    color: var(--background-color);
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+   
+   
+}
+
+#skills > h2 {
+    
+    /* padding: 1rem;
+    margin: 1rem; */
+}
+
+.skills-grid-wrapper {
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    /* padding: 1rem;
+    margin: 1rem; */
+    font-size: 2rem;
+}
+/* Footer */
 
 .contact-links {
     display: flex;
