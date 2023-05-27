@@ -8,7 +8,7 @@
   --font-size88: 5.5rem;
   --font-size48: 3rem;
   --font-size24: 1.5rem;
-  --line-height: 1.56rem;
+  --line-height: 1.586;
 }
 
 html {
@@ -27,7 +27,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: var(--background-color);
   font-size: var(--font-size18);
-  line-height: 1.586;
+  line-height: var(--line-height);
   color: var(--font);
 }
 
